@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · Lumina</title>
+<meta name="description" content="Informativa privacy di Lumina e dell'account Lumina.">
+<link rel="icon" href="immagini/icona-32.png">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="immagini/icona-256.png" alt="">Lumina</a>
+    <a class="btn pri" href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe" style="padding:9px 16px;font-size:15px;margin-left:auto">Scarica</a>
+  </div>
+</header>
+
+<main class="doc">
+  <h1>Informativa privacy</h1>
+  <p>Ultimo aggiornamento: 20 ottobre 2026</p>
+
+  <p>Questa informativa spiega quali dati tratta Lumina, il programma per Windows, e il servizio facoltativo «account Lumina» che permette ai fotografi di ricevere le scelte dei loro clienti.</p>
+
+  <h2>Chi tratta i dati</h2>
+  <p>Il titolare del trattamento è ANStudio, che sviluppa e distribuisce Lumina. Per qualsiasi domanda sui tuoi dati puoi scriverci tramite la pagina <a href="https://github.com/ANStudioDev/Lumina/issues">Segnalazioni</a>.</p>
+
+  <h2>Senza account: nessun dato personale</h2>
+  <p>Se usi Lumina senza account, le tue foto, i video e le tue scelte restano sul tuo computer. Lumina non li invia a nessuno.</p>
+  <p>Una volta al giorno Lumina controlla se è uscita una versione nuova. Il controllo non contiene dati su di te né sulle tue foto. Come per qualsiasi collegamento a internet, il server riceve l'indirizzo IP del computer, che non viene salvato da Lumina Cloud.</p>
+
+  <h2>Con l'account Lumina</h2>
+  <p>L'account è facoltativo e serve a ricevere da sola la scelta dei clienti, anche su più PC. In questo caso trattiamo:</p>
+  <table>
+    <tr><th>Dato</th><th>A cosa serve</th><th>Per quanto tempo</th></tr>
+    <tr><td>Email</td><td>Identificare il tuo account e farti accedere</td><td>Finché non elimini l'account</td></tr>
+    <tr><td>Impronta della password</td><td>Verificare l'accesso. La password non arriva mai ai nostri server: Lumina la trasforma sul tuo PC in una chiave (PBKDF2) e noi conserviamo solo un'impronta di quella chiave</td><td>Finché non elimini l'account</td></tr>
+    <tr><td>Nome dei PC collegati</td><td>Mantenere l'accesso sui tuoi computer</td><td>Fino all'uscita da quel PC, o dopo 1 anno di inutilizzo</td></tr>
+    <tr><td>Pacchetti per i clienti: nome del cliente e data</td><td>Sapere quali scelte attendi, su tutti i tuoi PC</td><td>Fino a quando smetti di attendere, al massimo 180 giorni</td></tr>
+    <tr><td>Scelte dei clienti: nome del cliente, nomi dei file scelti, note</td><td>Consegnarti la scelta del cliente</td><td>Al massimo 90 giorni</td></tr>
+  </table>
+  <p>Le foto non vengono mai caricate: viaggiano solo i nomi dei file e le note.</p>
+  <p>La base del trattamento è l'esecuzione del servizio che hai richiesto creando l'account.</p>
+
+  <h2>Dati dei clienti dei fotografi</h2>
+  <p>Quando un fotografo usa l'account Lumina per ricevere la scelta di un suo cliente, è il fotografo il titolare dei dati del cliente (nome, foto scelte, note). ANStudio li conserva per suo conto, solo per consegnarglieli e per il tempo indicato sopra. Il fotografo è tenuto a informare i propri clienti.</p>
+
+  <h2>Dove si trovano i dati</h2>
+  <p>I dati dell'account sono conservati su Cloudflare (Cloudflare Workers e database D1), in un database situato in Europa. Gli installer di Lumina sono distribuiti tramite GitHub. Cloudflare e GitHub trattano i dati tecnici dei collegamenti (come l'indirizzo IP) secondo le proprie informative.</p>
+
+  <h2>Sicurezza</h2>
+  <ul>
+    <li>Tutti i collegamenti sono cifrati (https).</li>
+    <li>L'accesso salvato sul tuo PC è cifrato da Windows per il tuo utente.</li>
+    <li>Ogni pacchetto ha una chiave che permette solo di inviare la scelta: chi ha il pacchetto non può leggere altri dati.</li>
+    <li>Dati vecchi e sessioni inutilizzate vengono cancellati automaticamente.</li>
+  </ul>
+
+  <h2>I tuoi diritti</h2>
+  <p>Puoi chiedere di accedere ai tuoi dati, correggerli, cancellarli, limitarne il trattamento o riceverne una copia. Puoi cancellare subito il tuo account e tutti i dati collegati da Lumina › Notifiche › Account Lumina › <b>Elimina account</b>. Hai anche il diritto di presentare reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>).</p>
+
+  <h2>Questo sito</h2>
+  <p>Questo sito non usa cookie né strumenti di statistica. È ospitato da GitHub Pages, che riceve i dati tecnici dei collegamenti come qualsiasi sito.</p>
+
+  <h2>Modifiche</h2>
+  <p>Se questa informativa cambia, la nuova versione sarà pubblicata su questa pagina con la data di aggiornamento.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 ANStudio · Lumina</span>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/ANStudioDev/Lumina/issues">Segnala un problema</a>
+      <a href="https://github.com/ANStudioDev/Lumina">GitHub</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

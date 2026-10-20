@@ -10,6 +10,8 @@
 <p align="center">
   <a href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe"><b>⬇ Scarica Lumina per Windows</b></a>
   &nbsp;·&nbsp;
+  <a href="https://anstudiodev.github.io/Lumina/">Sito di Lumina</a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/ANStudioDev/Lumina/releases">Tutte le versioni e le novità</a>
 </p>
 
@@ -39,7 +41,7 @@ Lumina si aggiorna da solo: quando esce una versione nuova te la propone all'avv
 
 ## Account Lumina (facoltativo)
 
-Per usare Lumina come visualizzatore non serve nessun account e il programma non si collega a nessun server. L'account gratuito serve solo ai fotografi che vogliono ricevere da sola la scelta dei clienti, anche su più PC.
+Per usare Lumina come visualizzatore non serve nessun account e il programma non si collega a nessun server. L'account gratuito serve solo ai fotografi che vogliono ricevere da sola la scelta dei clienti, anche su più PC. Dettagli nell'[informativa privacy](https://anstudiodev.github.io/Lumina/privacy.html).
 
 ## Segnalazioni
 
