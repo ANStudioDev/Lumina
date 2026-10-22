@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lumina · visualizzatore e selezione foto gratis per Windows</title>
-<meta name="description" content="Lumina è un visualizzatore veloce di foto, RAW e video per Windows. Ti aiuta a scegliere gli scatti, li passa a Lightroom e DaVinci e fa scegliere le foto ai tuoi clienti. Gratis.">
+<title>Lumina · visualizzatore e selezione foto gratis per Windows e Mac</title>
+<meta name="description" content="Lumina è un visualizzatore veloce di foto, RAW e video per Windows (e Mac in Beta). Ti aiuta a scegliere gli scatti, riconosce i volti, li passa a Lightroom e DaVinci e fa scegliere le foto ai tuoi clienti. Gratis.">
 <meta property="og:title" content="Lumina · guarda, scegli e consegna le tue foto">
-<meta property="og:description" content="Visualizzatore veloce di foto, RAW e video per Windows, gratis. Pensato per i fotografi.">
+<meta property="og:description" content="Visualizzatore veloce di foto, RAW e video per Windows e Mac, gratis. Pensato per i fotografi.">
 <meta property="og:image" content="https://anstudiodev.github.io/Lumina/immagini/icona-256.png">
+<link rel="alternate" hreflang="it" href="https://anstudiodev.github.io/Lumina/">
+<link rel="alternate" hreflang="en" href="https://anstudiodev.github.io/Lumina/en.html">
 <link rel="icon" href="immagini/icona-32.png">
 <link rel="apple-touch-icon" href="immagini/icona-180.png">
 <link rel="stylesheet" href="stile.css">
@@ -22,6 +24,7 @@
       <a href="#clienti">Clienti</a>
       <a href="#domande">Domande</a>
       <a href="#novita">Novità</a>
+      <a href="en.html" lang="en" hreflang="en">English</a>
     </nav>
     <a class="btn pri" href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe" style="padding:9px 16px;font-size:15px">Scarica</a>
   </div>
@@ -31,15 +34,15 @@
   <div class="wrap">
     <div>
       <h1>Guarda, scegli e consegna le tue foto. <span>Gratis.</span></h1>
-      <p class="lead">Lumina è un visualizzatore velocissimo di foto, RAW e video per Windows. Ti aiuta a scegliere gli scatti migliori, li passa a Lightroom o DaVinci e fa scegliere le foto ai tuoi clienti, anche dal telefono.</p>
+      <p class="lead">Lumina è un visualizzatore velocissimo di foto, RAW e video. Ti aiuta a scegliere gli scatti migliori, riconosce i volti, passa le foto a Lightroom o DaVinci e le fa scegliere ai tuoi clienti, anche dal telefono.</p>
       <div class="cta">
         <a class="btn pri" href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
           Scarica per Windows
         </a>
-        <a class="btn" href="#funzioni">Scopri cosa fa</a>
+        <a class="btn" id="macdl" href="https://github.com/ANStudioDev/Lumina/releases">Mac (Beta)</a>
       </div>
-      <div class="meta"><span id="ver">Ultima versione</span> · Windows 10 e 11 · nessun account richiesto</div>
+      <div class="meta"><span id="ver">Ultima versione</span> · Windows 10 e 11 · Mac in Beta · italiano e inglese · nessun account richiesto</div>
     </div>
     <div class="art"><img src="immagini/icona.png" alt="Icona di Lumina"></div>
   </div>
@@ -61,6 +64,11 @@
         <p>Selezione, stelle, etichette colore e note, con le stesse scorciatoie. Confronto fino a 4 scatti con zoom sincronizzato.</p>
       </div>
       <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></div>
+        <h3>Volti e momenti migliori</h3>
+        <p>Divide il servizio in momenti, sceglie le foto con volti nitidi e occhi aperti e raggruppa le persone: dai un nome («Sposa») e tieni tutte le sue foto. Oppure scegli tu, a mano.</p>
+      </div>
+      <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
         <h3>Ti fa risparmiare tempo</h3>
         <p>Segnala da solo raffiche, foto forse mosse e doppioni, così arrivi prima agli scatti giusti.</p>
@@ -68,7 +76,7 @@
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></div>
         <h3>Dritto nei tuoi programmi</h3>
-        <p>Copia gli originali scelti e apre Lightroom, Capture One, Photoshop, DaVinci Resolve o Premiere, con stelle e note già pronte.</p>
+        <p>Copia gli originali scelti, identici, e apre Lightroom, Capture One, Photoshop, DaVinci Resolve o Premiere, con stelle e note già pronte.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M8 6V4h8v2"/></svg></div>
@@ -78,7 +86,12 @@
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H4z"/><path d="M8 20h8"/><path d="M12 16v4"/></svg></div>
         <h3>Esportazioni pronte</h3>
-        <p>JPG per web, Instagram e WhatsApp con il tuo logo, provini PDF da stampare e fotogrammi dai video in piena risoluzione.</p>
+        <p>Originali in piena qualità, JPG per web, Instagram e WhatsApp con il tuo logo, provini PDF da stampare e fotogrammi dai video.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.7 5.7 3.7 9s-1.2 6.3-3.7 9c-2.5-2.7-3.7-5.7-3.7-9S9.5 5.7 12 3z"/></svg></div>
+        <h3>In italiano e in inglese</h3>
+        <p>Il programma segue la lingua del computer, o la scegli tu. Per i clienti stranieri pacchetto, galleria e messaggi sono in inglese.</p>
       </div>
     </div>
   </div>
@@ -125,8 +138,16 @@
       <p>No. L'account Lumina serve solo ai fotografi che vogliono ricevere da sola la scelta dei clienti, anche su più PC. Per guardare e scegliere foto non serve.</p>
     </details>
     <details>
+      <summary>Il riconoscimento dei volti manda le foto da qualche parte?</summary>
+      <p>No. I volti vengono analizzati sul tuo computer, senza internet. I nomi che dai alle persone restano nella cartella dei dati di Lumina.</p>
+    </details>
+    <details>
       <summary>Come mando la galleria al cliente?</summary>
       <p>Collega una volta il tuo account Netlify gratuito (Impostazioni › Galleria online): quando crei una galleria web, Lumina la mette online e ti dà il link da mandare su WhatsApp o per email. La galleria si cancella da sola qualche giorno dopo la scelta del cliente, o quando premi «Chiudi galleria». Le foto vanno sul tuo Netlify, non su server di Lumina.</p>
+    </details>
+    <details>
+      <summary>Come cambio lingua?</summary>
+      <p>Impostazioni › Informazioni › Lingua: Automatica (segue il computer), Italiano o English. Per un cliente straniero attiva «Cliente straniero» in Impostazioni › Pacchetto cliente.</p>
     </details>
     <details>
       <summary>Come si aggiorna?</summary>
@@ -138,7 +159,7 @@
     </details>
     <details>
       <summary>Funziona su Mac?</summary>
-      <p>Il programma è per Windows 10 e 11. La galleria web che mandi al cliente invece si apre su qualsiasi dispositivo, Mac e telefoni compresi.</p>
+      <p>Sì, in Beta: Lumina per Mac (Apple Silicon e Intel, macOS 13 o più recente) ha già visualizzatore, scelta, momenti con i volti ed esportazioni. Pacchetto cliente, account e scarico dalla scheda arriveranno. Alla prima apertura macOS avvisa perché l'app non è firmata da Apple: tasto destro sull'app › Apri. La galleria web che mandi al cliente si apre su qualsiasi dispositivo.</p>
     </details>
   </div>
 </section>
@@ -156,40 +177,14 @@
     <span>© 2026 ANStudio · Lumina è gratuito. Legge i RAW con <a href="https://www.libraw.org">LibRaw</a> (LGPL / CDDL).</span>
     <div class="links">
       <a href="privacy.html">Privacy</a>
+      <a href="en.html" lang="en">English</a>
       <a href="https://github.com/ANStudioDev/Lumina/issues">Segnala un problema</a>
       <a href="https://github.com/ANStudioDev/Lumina">GitHub</a>
     </div>
   </div>
 </footer>
 
-<script>
-// versione e novità lette da GitHub: si aggiornano da sole a ogni nuova versione
-(function () {
-  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-  function body(t) {
-    t = (t || "").split(/\r?\n---/)[0].trim();   // l'impronta SHA256 in fondo non serve qui
-    var out = "", list = false;
-    t.split(/\r?\n/).forEach(function (l) {
-      if (/^\s*[-*] /.test(l)) { if (!list) { out += "<ul>"; list = true; } out += "<li>" + esc(l.replace(/^\s*[-*] /, "")) + "</li>"; }
-      else { if (list) { out += "</ul>"; list = false; } if (l.trim()) out += "<p>" + esc(l) + "</p>"; }
-    });
-    return out + (list ? "</ul>" : "");
-  }
-  fetch("https://api.github.com/repos/ANStudioDev/Lumina/releases?per_page=4")
-    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
-    .then(function (rel) {
-      rel = rel.filter(function (x) { return !x.draft && !x.prerelease; });
-      if (!rel.length) throw 0;
-      document.getElementById("ver").textContent = "Versione " + rel[0].tag_name.replace(/^v/, "");
-      document.getElementById("releases").innerHTML = rel.map(function (x, i) {
-        var d = new Date(x.published_at).toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" });
-        return '<div class="rel"><h3>' + esc(x.name || x.tag_name) + " <small>" + d + "</small>" + (i === 0 ? ' <span class="badge">ultima</span>' : "") + "</h3>" + body(x.body) + "</div>";
-      }).join("");
-    })
-    .catch(function () {
-      document.getElementById("releases").innerHTML = '<p class="sub">Le novità sono su <a href="https://github.com/ANStudioDev/Lumina/releases">GitHub</a>.</p>';
-    });
-})();
-</script>
+<script src="novita.js"></script>
+<script>luminaNovita("it");</script>
 </body>
 </html>

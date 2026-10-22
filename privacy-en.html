@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · Lumina</title>
+<meta name="description" content="Privacy policy of Lumina and the Lumina account.">
+<link rel="alternate" hreflang="it" href="https://anstudiodev.github.io/Lumina/privacy.html">
+<link rel="icon" href="immagini/icona-32.png">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="en.html"><img src="immagini/icona-256.png" alt="">Lumina</a>
+    <a class="btn pri" href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe" style="padding:9px 16px;font-size:15px;margin-left:auto">Download</a>
+  </div>
+</header>
+
+<main class="doc">
+  <h1>Privacy policy</h1>
+  <p>Last updated: 23 October 2026 · <a href="privacy.html" lang="it">Italiano</a> (the Italian version prevails)</p>
+
+  <p>This policy explains what data is handled by Lumina, the program for Windows and Mac, and by the optional «Lumina account» service that lets photographers receive their clients' choices.</p>
+
+  <h2>Who handles the data</h2>
+  <p>The data controller is ANStudio, which develops and distributes Lumina. For any question about your data you can write to us through the <a href="https://github.com/ANStudioDev/Lumina/issues">Issues</a> page.</p>
+
+  <h2>Without an account: no personal data</h2>
+  <p>If you use Lumina without an account, your photos, videos and choices stay on your computer. Lumina doesn't send them to anyone.</p>
+  <p>Once a day Lumina checks whether a new version is out. The check contains no data about you or your photos. As with any internet connection, the server receives the computer's IP address, which Lumina Cloud doesn't store.</p>
+
+  <h2>Face recognition</h2>
+  <p>To pick the best photos Lumina looks for faces and recognises the same people across the photos of a shoot. Everything happens on your computer, offline: photos and face data are never sent anywhere. Lumina stores on your PC, in its data folder, a numeric description of the faces found and the names you give to people; you can delete them at any time by deleting that folder. If you photograph people, you decide how to use these features.</p>
+
+  <h2>With the Lumina account</h2>
+  <p>The account is optional and is used to receive clients' choices automatically, even on several PCs. In this case we handle:</p>
+  <table>
+    <tr><th>Data</th><th>What it's for</th><th>How long</th></tr>
+    <tr><td>Email</td><td>Identifying your account and signing you in</td><td>Until you delete the account</td></tr>
+    <tr><td>Password fingerprint</td><td>Checking sign-ins. The password never reaches our servers: Lumina turns it into a key on your PC (PBKDF2) and we only keep a fingerprint of that key</td><td>Until you delete the account</td></tr>
+    <tr><td>Names of signed-in PCs</td><td>Keeping you signed in on your computers</td><td>Until you sign out on that PC, or after 1 year of inactivity</td></tr>
+    <tr><td>Client packages: client name and date</td><td>Knowing which choices you're waiting for, on all your PCs</td><td>Until you stop waiting, at most 180 days</td></tr>
+    <tr><td>Clients' choices: client name, names of the chosen files, notes</td><td>Delivering the client's choice to you</td><td>At most 90 days</td></tr>
+  </table>
+  <p>Photos are never uploaded: only file names and notes travel.</p>
+  <p>The legal basis is providing the service you asked for by creating the account.</p>
+
+  <h2>Data of photographers' clients</h2>
+  <p>When a photographer uses the Lumina account to receive a client's choice, the photographer is the controller of the client's data (name, chosen photos, notes). ANStudio stores it on their behalf, only to deliver it to them and for the time stated above. The photographer must inform their clients.</p>
+
+  <h2>Online galleries on Netlify</h2>
+  <p>If you connect your Netlify account, Lumina uploads the gallery previews (with your logo) directly to your Netlify space: the photos don't pass through Lumina's servers. The Netlify access permission is stored only on your PC, encrypted by Windows; during the connection it passes through Lumina Cloud for a few seconds and is deleted immediately. Lumina deletes galleries from your Netlify after the days you set, or when you press «Close gallery». Netlify handles this data under its own policy.</p>
+
+  <h2>Where the data is</h2>
+  <p>Account data is stored on Cloudflare (Cloudflare Workers and D1 database), in a database located in Europe. Lumina installers are distributed through GitHub. Cloudflare and GitHub handle technical connection data (such as the IP address) under their own policies.</p>
+
+  <h2>Security</h2>
+  <ul>
+    <li>All connections are encrypted (https).</li>
+    <li>The sign-in saved on your PC is encrypted by Windows for your user.</li>
+    <li>Each package has a key that only allows sending the choice: whoever has the package can't read any other data.</li>
+    <li>Old data and unused sessions are deleted automatically.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>You can ask to access, correct, delete or restrict the processing of your data, or to receive a copy of it. You can delete your account and all related data right away from Lumina › Notifications › Lumina account › <b>Delete account</b>. You also have the right to lodge a complaint with the Italian data protection authority (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>) or the authority of your country.</p>
+
+  <h2>This website</h2>
+  <p>This website uses no cookies or analytics tools. It is hosted by GitHub Pages, which receives technical connection data like any website.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published on this page with the update date.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 ANStudio · Lumina</span>
+    <div class="links">
+      <a href="en.html">Home</a>
+      <a href="https://github.com/ANStudioDev/Lumina/issues">Report a problem</a>
+      <a href="https://github.com/ANStudioDev/Lumina">GitHub</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
