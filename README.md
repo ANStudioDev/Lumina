@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ANStudioDev/Lumina/releases/latest/download/Lumina-setup.exe"><b>⬇ Scarica per Windows / Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.3-beta">Mac (Beta)</a>
+  <a href="https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.4-beta">Mac (Beta)</a>
   &nbsp;·&nbsp;
   <a href="https://anstudiodev.github.io/Lumina/">Sito</a> / <a href="https://anstudiodev.github.io/Lumina/en.html">Website</a>
 </p>
@@ -45,7 +45,7 @@ Windows 10 o 11 a 64 bit, senza permessi di amministratore. Mac (Beta): macOS 13
 
 Lumina si aggiorna da solo: quando esce una versione nuova te la propone all'avvio.
 
-Mac: scarica `Lumina-mac.dmg` dalla [versione Beta](https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.3-beta), trascina Lumina in Applicazioni e la prima volta apri con tasto destro › Apri.
+Mac: scarica `Lumina-mac.dmg` dalla [versione Beta](https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.4-beta), trascina Lumina in Applicazioni. La prima volta macOS la blocca perché non è firmata da Apple: prova ad aprirla, poi Impostazioni di Sistema › Privacy e sicurezza › «Apri comunque».
 
 ### Account Lumina (facoltativo)
 
@@ -82,7 +82,7 @@ Lumina is a fast photo and video viewer, made for photographers but useful to an
 
 Lumina updates itself: when a new version is out it offers it at start.
 
-Mac: download `Lumina-mac.dmg` from the [Beta release](https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.3-beta), drag Lumina into Applications and the first time open it with right-click › Open.
+Mac: download `Lumina-mac.dmg` from the [Beta release](https://github.com/ANStudioDev/Lumina/releases/tag/mac-v1.0.4-beta), drag Lumina into Applications. The first time macOS blocks it because it isn't signed by Apple: try to open it, then System Settings › Privacy & Security › «Open Anyway».
 
 ### Lumina account (optional)
 
